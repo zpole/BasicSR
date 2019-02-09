@@ -17,8 +17,8 @@
       , "mode": "LRHR"
       , "dataroot_HR": "/mnt/SSD/xtwang/BasicSR_datasets/val_set14/Set14"
       , "dataroot_LR": "/mnt/SSD/xtwang/BasicSR_datasets/val_set14/Set14_bicLRx4"
-    }
-  } */
+    } */
+  }
 
   , "path": {
     "root": "/home/s1825980/BasicSR"
