@@ -7,21 +7,21 @@
 
   , "datasets": {
     "test_1": { // the 1st test dataset
-      "name": "set5"
+      "name": "DIV2K"
       , "mode": "LRHR"
-      , "dataroot_HR": "/mnt/SSD/xtwang/BasicSR_datasets/val_set5/Set5"
-      , "dataroot_LR": "/mnt/SSD/xtwang/BasicSR_datasets/val_set5/Set5_bicLRx4"
+      , "dataroot_HR": "/home/s1825980/datasets/DIV2K/DIV2K_valid_HR"
+      , "dataroot_LR": "/home/s1825980/datasets/DIV2K/DIV2K_valid_LR_bicubic/X4"
     }
     , "test_2": { // the 2nd test dataset
-      "name": "set14"
+      "name": "DIV2Kx4"
       , "mode": "LRHR"
-      , "dataroot_HR": "/mnt/SSD/xtwang/BasicSR_datasets/val_set14/Set14"
-      , "dataroot_LR": "/mnt/SSD/xtwang/BasicSR_datasets/val_set14/Set14_bicLRx4"
+      , "dataroot_HR": "/home/s1825980/datasets/DIV2K/DIV2K_valid_LR_bicubic/X4"
+      , "dataroot_LR": "/home/s1825980/datasets/DIV2K/DIV2K_valid_LR_bicubic/X16"
     }
   }
 
   , "path": {
-    "root": "/home/xtwang/Projects/BasicSR"
+    "root": "/home/s1825980/BasicSR"
     , "pretrain_model_G": "../experiments/pretrained_models/SRGAN_bicx4_303_505.pth"
   }
 
