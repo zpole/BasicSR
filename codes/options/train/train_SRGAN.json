@@ -8,10 +8,10 @@
 
   , "datasets": {
     "train": {
-      "name": "DIV2K"
+      "name": "DIV2Kx4"
       , "mode": "LRHR"
-      , "dataroot_HR": "/mnt/SSD/xtwang/BasicSR_datasets/DIV2K800/DIV2K800_sub.lmdb"
-      , "dataroot_LR": "/mnt/SSD/xtwang/BasicSR_datasets/DIV2K800/DIV2K800_sub_bicLRx4.lmdb"
+      , "dataroot_HR": "/home/s1825980/datasets/DIV2K/DIV2K_train_LR_bicubic/X4"
+      , "dataroot_LR": "/home/s1825980/datasets/DIV2K/DIV2K_train_LR_bicubic/X16"
       , "subset_file": null
       , "use_shuffle": true
       , "n_workers": 8
@@ -21,16 +21,16 @@
       , "use_rot": true
     }
     , "val": {
-      "name": "val_set14_part"
+      "name": "DIV2Kx4"
       , "mode": "LRHR"
-      , "dataroot_HR": "/mnt/SSD/xtwang/BasicSR_datasets/val_set14_part/Set14"
-      , "dataroot_LR": "/mnt/SSD/xtwang/BasicSR_datasets/val_set14_part/Set14_bicLRx4"
+      , "dataroot_HR": "/home/s1825980/datasets/DIV2K/DIV2K_valid_LR_bicubic/X4"
+      , "dataroot_LR": "/home/s1825980/datasets/DIV2K/DIV2K_valid_LR_bicubic/X16"
     }
   }
 
   , "path": {
-    "root": "/home/xtwang/Projects/BasicSR"
-    // , "resume_state": "../experiments/debug_002_SRGAN_x4_DIV2K/training_state/16.state"
+    "root": "/home/s1825980/BasicSR"
+    // , "resume_state": "../experiments/debug_002_SRGAN_x4_DIV2K/training_state/SRGAN.state"
     , "pretrain_model_G": "../experiments/pretrained_models/SRResNet_bicx4_in3nf64nb16.pth"
   }
 
