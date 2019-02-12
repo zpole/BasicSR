@@ -30,7 +30,7 @@
   }
 
   , "path": {
-    "root": "/home/xtwang/Projects/BasicSR"
+    "root": "/home/s1825980/BasicSR"
     // , "resume_state": "../experiments/debug_001_RRDB_PSNR_x4_DIV2K/training_state/SRResnet.state"
     , "pretrain_model_G": null
   }
