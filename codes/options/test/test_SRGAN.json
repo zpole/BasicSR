@@ -15,8 +15,8 @@
     , "test_2": { // the 2nd test dataset
       "name": "DIV2Kx4"
       , "mode": "LRHR"
-      , "dataroot_HR": "/home/s1825980/datasets/DIV2K/DIV2K_valid_LR_bicubic/X4"
-      , "dataroot_LR": "/home/s1825980/datasets/DIV2K/DIV2K_valid_LR_bicubic/X16"
+      , "dataroot_HR": "/home/s1825980/datasets/PIRM_dataset/Test/Original"
+      , "dataroot_LR": "/home/s1825980/datasets/PIRM_dataset/Test/4x_downsampled"
     }
   }
 

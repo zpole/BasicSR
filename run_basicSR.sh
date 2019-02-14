@@ -35,4 +35,4 @@ export DATASET_DIR=${TMP}/datasets/
 
 source /home/${STUDENT_ID}/miniconda3/bin/activate mlp
 cd /home/${STUDENT_ID}/BasicSR/codes
-python train.py -opt options/test/test_SRGAN.json
+python test.py -opt options/test/test_SRGAN.json

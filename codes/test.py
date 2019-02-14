@@ -25,8 +25,8 @@ logger.info(option.dict2str(opt))
 # Create test dataset and dataloader
 test_loaders = []
 for phase, dataset_opt in sorted(opt['datasets'].items()):
-    test_set = create_dataset(dataset_opt)
-    test_loader = create_dataloader(test_set, dataset_opt)
+    test_set = create_dataset(dataset_opt) # import LRHRDataset as D dataset = D(dataset_opt)
+    test_loader = create_dataloader(test_set, dataset_opt) # torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=1, pin_memory=True)
     logger.info('Number of test images in [{:s}]: {:d}'.format(dataset_opt['name'], len(test_set)))
     test_loaders.append(test_loader)
 
