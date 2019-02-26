@@ -7,16 +7,16 @@
 
   , "datasets": {
     "test_1": { // the 1st test dataset
-      "name": "PIRM"
+      "name": "DIV2K_orign"
       , "mode": "LRHR"
-      , "dataroot_HR": "/home/s1825980/datasets/PIRM_dataset/Test/Original"
-      , "dataroot_LR": "/home/s1825980/datasets/PIRM_dataset/Test/4x_downsampled"
+      , "dataroot_HR": "/home/s1825980/data/DIV2K_valid_HR(srgan for X16)/DIV2K_valid_HR_ground_truth(srgan for X16)"
+      , "dataroot_LR": "/home/s1825980/data/DIV2K_valid_LR_bicubic_X4/X4"
     }
     /* , "test_2": { // the 2nd test dataset
-      "name": "set14"
+      "name": "DIV2K_x4"
       , "mode": "LRHR"
-      , "dataroot_HR": "/mnt/SSD/xtwang/BasicSR_datasets/val_set14/Set14"
-      , "dataroot_LR": "/mnt/SSD/xtwang/BasicSR_datasets/val_set14/Set14_bicLRx4"
+      , "dataroot_HR": "/home/s1825980/data/DIV2K_valid_LR_bicubic_X4/X4"
+      , "dataroot_LR": "/home/s1825980/data/DIV2K_valid_LR_bicubic_X16/X16_valid"
     } */
   }
 

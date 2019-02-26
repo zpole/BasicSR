@@ -7,17 +7,17 @@
 
   , "datasets": {
     "test_1": { // the 1st test dataset
-      "name": "DIV2K"
+      "name": "DIV2K_orign"
       , "mode": "LRHR"
-      , "dataroot_HR": "/home/s1825980/datasets/DIV2K/DIV2K_valid_HR"
-      , "dataroot_LR": "/home/s1825980/datasets/DIV2K/DIV2K_valid_LR_bicubic/X4"
+      , "dataroot_HR": "/home/s1825980/data/DIV2K_valid_HR(srgan for X16)/DIV2K_valid_HR_ground_truth(srgan for X16)"
+      , "dataroot_LR": "/home/s1825980/data/DIV2K_valid_LR_bicubic_X4/X4"
     }
-    , "test_2": { // the 2nd test dataset
-      "name": "DIV2Kx4"
+    /* , "test_2": { // the 2nd test dataset
+      "name": "DIV2K_x4"
       , "mode": "LRHR"
-      , "dataroot_HR": "/home/s1825980/datasets/PIRM_dataset/Test/Original"
-      , "dataroot_LR": "/home/s1825980/datasets/PIRM_dataset/Test/4x_downsampled"
-    }
+      , "dataroot_HR": "/home/s1825980/data/DIV2K_valid_LR_bicubic_X4/X4"
+      , "dataroot_LR": "/home/s1825980/data/DIV2K_valid_LR_bicubic_X16/X16_valid"
+    } */
   }
 
   , "path": {
