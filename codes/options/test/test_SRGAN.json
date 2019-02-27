@@ -10,7 +10,7 @@
       "name": "DIV2K_train"
       , "mode": "LRHR"
       , "dataroot_HR": "/home/s1825980/datasets/DIV2K/DIV2K_train_HR"
-      , "dataroot_LR": "/home/s1825980/datasets/DIV2K/DIV2K_train_LR_bicubic/x4"
+      , "dataroot_LR": "/home/s1825980/datasets/DIV2K/DIV2K_train_LR_bicubic/X4"
     }
     , "test_2": { // the 2nd test dataset
       "name": ""
