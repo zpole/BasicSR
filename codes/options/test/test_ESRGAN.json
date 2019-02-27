@@ -13,10 +13,10 @@
       , "dataroot_LR": "/home/s1825980/datasets/DIV2K/DIV2K_train_LR_bicubic/X4"
     }
     , "test_2": { // the 2nd test dataset
-      "name": ""
+      "name": "PIRM_test"
       , "mode": "LRHR"
-      , "dataroot_HR": ""
-      , "dataroot_LR": ""
+      , "dataroot_HR": "/home/s1825980/datasets/PIRM_dataset/Test/Original"
+      , "dataroot_LR": "/home/s1825980/datasets/PIRM_dataset/Test/4x_downsampled"
     }
   }
 
